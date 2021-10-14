@@ -51,7 +51,14 @@
                                    letter-spacing: 0.02em;
                                    color: var(--header-color);
                                }
-                               
+                               .contacts-mail:hover,
+                               .contacts-mail:focus{
+                                color: var(--accent-text-color);
+                               }
+                               .contacts-tel:hover,
+                               .contacts-tel:focus{
+                                color: var(--accent-text-color);
+                                } 
                                .menu-link:hover,
                                .menu-link:focus {
                                    color: var(--accent-text-color);
@@ -86,7 +93,7 @@
                                    line-height: 1.87;
                                    letter-spacing: 0.06em;
                                    cursor: pointer;
-                                   color: var(--primery-text-color);
+                                   color: var(--secondary-title-color);
                                }
                                
                                .link.accent {
@@ -97,6 +104,7 @@
                                .btn:focus {
                                    background-color: var(--accent-text-color);
                                    color: var(--secondary-title-color);
+                                   cursor: pointer;
                                }
                                /* FEATURE */
                                
@@ -188,7 +196,7 @@
                                    font-size: 14px;
                                    line-height: 24px;
                                    letter-spacing: 0.03em;
-                                   color: var(--secondary-text-color);
+                                   color: var(--secondary-title-color);
                                }
                                
                                .footer-mail,
@@ -220,6 +228,7 @@
                                
                                .button-primary {
                                    background-color: var(--accent-text-color);
+                                   color: var(--secondary-title-color)
                                }
                                /* Portfolio-item */
                                
